@@ -38,7 +38,7 @@ sendBtn.addEventListener("click", (e) => {
   }
 });
 
-window.addEventListener("load", loadComments());
+window.addEventListener("load", loadComments);
 
 commentList.addEventListener(
   "click",
